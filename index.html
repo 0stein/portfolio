@@ -12,11 +12,17 @@
         body {
             height: 100%;
         }
-        .get-margin-top{
+
+        .get-margin-top {
             margin-top: 100px;
         }
-        .get-margin-bottom{
+
+        .get-margin-bottom {
             margin-bottom: 100px;
+        }
+
+        .article_ {
+            margin: 30px 0 60px 0;
         }
     </style>
 </head>
@@ -24,73 +30,108 @@
 <body>
     <div class="container h-100">
         <div class="row d-flex justify-content-center h-100">
-            <div class="col-3 d-flex align-items-center justify-content-center">
-                
-                <div>
-                    <h1>hello</h1>
-                </div>
-            </div>
             <div class="col-9 d-flex justify-content-center">
                 <div>
                     <h1 class="mb-5 get-margin-top">안녕하세요.<br>병역특례 개발자가 되고싶은 박승진입니다</h1>
                     <div class="w-75">
-                        <p>어려서부터 제 손으로 무언가를 만드는 것을 좋아해 왔습니다. 
-                            여러 창작활동을 즐기던 저는 개발이란 것을 접하게 되어 
-                            현재 웹 개발을 주로 공부하고 있으며 자기만족에 그치지 않고 다른 사용자들을 
-                            만족하게 할 수 있는 어플리케이션을 만들고 싶습니다. 
+                        <p>어려서부터 제 손으로 무언가를 만드는 것을 좋아해 왔습니다.
+                            여러 창작활동을 즐기던 저는 개발이란 것을 접하게 되어
+                            현재 웹 개발을 주로 공부하고 있으며 자기만족에 그치지 않고 다른 사용자들을
+                            만족하게 할 수 있는 어플리케이션을 만들고 싶습니다.
                         </p>
                     </div>
-                    <hr class="mb-5">
-                    <h2 class="mb-4">Skill</h2>
-                    <div>
-                        <ul>
-                            <li>
-                                <h3>Java</h3>
-                                자바의 컬렉션프레임워크, 람다, 함수형인터페이스, 스트림 등 자바8의 문법을 숙지하고 사용할 수 있습니다. 
-                            </li>
-                            <li>
-                                <h3>Html, Css</h3>
-                                html의 기본태그들을 활용하여 원하는 마크업을 할 수 있고 간단한 레이아웃을 css를 통해 구성 할 수 있습니다.
-                            </li>
-                            <li>
-                                <h3>spring boot</h3>
-                                기본적인 개념들을 이해 하고있으며 REST API를 활용하여 어플리케이션을 만들고있습니다. WebMvcTest를 어떻게 진행
-                                해야되는지 알고있으며 테스트코드를 항상 작성합니다.  
-                            </li>
-                            <li>
-                                <h3>Vue</h3>
-                                간단한 todo list 어플리케이션 제작을 할 수 있습니다. 부모 자식 컴포넌트간의 데이터를 props, emit, 을 활용
-                                하여 주고받을 수 있습니다.
-                            </li>
-                        </ul>
+                    <div class="article_">
+                        <h2 class="mb-4">Skill</h2>
+                        <hr class="">
+                        <div>
+                            <ul>
+                                <li>
+                                    <h3>Java</h3>
+                                    자바의 컬렉션프레임워크, 람다, 함수형인터페이스, 스트림 등 자바8의 문법을 숙지하고 사용할 수 있습니다.
+                                </li>
+                                <li>
+                                    <h3>Html, Css</h3>
+                                    html의 기본태그들을 활용하여 원하는 마크업을 할 수 있고 간단한 레이아웃을 css를 통해 구성 할 수 있습니다.
+                                </li>
+                                <li>
+                                    <h3>spring boot</h3>
+                                    기본적인 개념들을 이해 하고있으며 REST API를 활용하여 어플리케이션을 만들고있습니다. ORM 프레임워크로 JPA를 주로
+                                    사용합니다.
+                                </li>
+                                <li>
+                                    <h3>Vue</h3>
+                                    vue의 기본적인 내용, 싱글파일 컴포넌트를 활용하여 spa를 만들 수 있습니다. 그러나 아직 vue router, vuex, nuxtjs에 대해서는 
+                                    제게 주어진 넘어야할 과제로 남아있습니다.
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <hr class="mb-5">
-                    <h2 class="mb-4">Projects</h2>
-                    <div>
-                        <ul>
-                            <li class="mb-3">
-                                <h3>blog</h3>
-                                html css를 어느정도 공부하고 난 후 만들어본 블로그입니다. 단순한 마크업과 css로만 구성되어있습니다.<br>
-                                <a href="https://gragascancode.github.io/helloworldblog/">https://gragascancode.github.io/helloworldblog/</a> 
-                            </li>
-                            <li class="mb-3">
-                                <h3>random multiplication application</h3>
-                                스프링부트를 활용한 마이크로서비스 라는 책을 접하고 가이드를 보며 만든 어플리케이션입니다. 
-                                <a href="https://github.com/portalToMoon/springboot-microservice-example">https://github.com/portalToMoon/springboot-microservice-example</a>
-        
-                            </li>
-                            <li>
-                                <h3>Work Out Helper (미완성)</h3>
-                                ui: <a href="https://github.com/portalToMoon/wkh-ui">https://github.com/portalToMoon/wkh-ui</a> <br>
-                                backend: <a href="https://github.com/portalToMoon/WorkOutHelper">https://github.com/portalToMoon/WorkOutHelper</a>
-                            </li>
-                        </ul>
+                    <div class="article_">
+
+                        <h2 class="mb-4">Projects</h2>
+                        <hr class="mb-5">
+                        <div>
+                            <ul>
+                                <li class="mb-3">
+                                    <h3>blog</h3>
+                                    html css를 어느정도 공부하고 난 후 만들어본 블로그입니다. 단순한 마크업과 css로만 구성되어있습니다.<br>
+                                    html과 css만 알고서는 원하는 내용을 지속적으로 포스팅하기에는 힘들것 같아 velog로 이주하게 되었습니다.
+                                    <a
+                                        href="https://gragascancode.github.io/helloworldblog/">https://gragascancode.github.io/helloworldblog/</a>
+                                </li>
+                                <li class="mb-3">
+                                    <h3>random multiplication application</h3>
+                                    스프링부트를 활용한 마이크로서비스 라는 책을 접하고 가이드를 보며 만든 어플리케이션입니다.
+                                    <a
+                                        href="https://github.com/portalToMoon/springboot-microservice-example">https://github.com/portalToMoon/springboot-microservice-example</a>
+                                    <br>
+                                    <a href="https://velog.io/@aad3365/series/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%EB%A5%BC%ED%99%9C%EC%9A%A9%ED%95%9C%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%9C%EB%B0%9C">
+                                        velog에 작성해 둔 책의 프로젝트 내용</a>
+
+                                </li>
+                                <li>
+                                    <h3>Work Out Helper (미완성)</h3>
+                                    ui: <a
+                                        href="https://github.com/portalToMoon/wkh-ui">https://github.com/portalToMoon/wkh-ui</a>
+                                    <br>
+                                    backend: <a
+                                        href="https://github.com/portalToMoon/WorkOutHelper">https://github.com/portalToMoon/WorkOutHelper</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <hr class="mb-5">
-                    <h2 class="mb-4">Blog</h2>
-                    <div class="get-margin-bottom">
-                        <a href="https://velog.io/@aad3365">https://velog.io/@aad3365</a> <br>                
-                        <a href="https://www.notion.so/WebMvcTest-c9118580e9424db8957989fbefe3828d">webMvcTest 정리</a>
+                    <div class="article_">
+                        <h2 class="mb-4">Blog 나 기타 정리한 글들</h2>
+                        <hr>
+                        <div class="get-margin-bottom">
+                            <h5>Velog</h5>
+                            <p>velog 에 spring boot 에 관한 글을 정리했었습니다.</p>
+                            <a href="https://velog.io/@aad3365">https://velog.io/@aad3365</a> 
+                            <h5>notion pages</h5>
+                            <ul>
+                                <li>
+                                    <a href="https://www.notion.so/SELECT-564174c645e241de834e201ca27dd855">SELECT 구문
+                                        정리</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.notion.so/WebMvcTest-c9118580e9424db8957989fbefe3828d">webMvcTest
+                                        정리</a>
+
+                                </li>
+                                <li>
+                                    <a href="https://www.notion.so/Projection-9d953209cbe2450baf3a79efc3d323ea">JPA
+                                        projection
+                                        정리</a>
+
+                                </li>
+                                <li>
+
+                                    <a href="https://www.notion.so/javascript-a613679487e74fbe8fc22d1cccc84553">JAVASCRIPT
+                                        객체
+                                        정리</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
